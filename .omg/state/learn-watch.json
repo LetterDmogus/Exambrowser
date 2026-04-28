@@ -1,0 +1,12 @@
+{
+  "last_session_id": "e60d2347-392d-49d7-8949-877087473571",
+  "last_event_key": "e60d2347-392d-49d7-8949-877087473571:transcript:cedd2a1b2cc2348f9933ad3c4c9f7463274162f7b5765de275485cb8a5a4470b",
+  "last_prompted_session_id": "",
+  "last_reason": "short-session",
+  "last_prompted_at": "",
+  "last_user_message_count": 2,
+  "last_actionable_message_count": 1,
+  "deep_interview_lock_active": false,
+  "deep_interview_lock_source": "/home/floaty/Documents/Laravel/ExambroBackend/.omg/state/deep-interview.json",
+  "updated_at": "2026-04-28T01:49:15.564Z"
+}
