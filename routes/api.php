@@ -1,8 +1,10 @@
 <?php
 
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Api\ExamController;
 
-Route::get('/user', function (Request $request) {
-    return $request->user();
-})->middleware('auth:sanctum');
+Route::prefix('exam')->group(function () {
+    Route::post('/join', [ExamController::class, 'join']);
+    Route::post('/log', [ExamController::class, 'logActivity']);
+    Route::post('/exit', [ExamController::class, 'validateExit']);
+});
